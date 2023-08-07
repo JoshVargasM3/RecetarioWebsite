@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	align-items: center;
+	font-family: sans-serif, center; 
+}
+
+
+body{
+	background-image:url("../CARNES/IMAGENES CARNES/portada carne.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+.imagen{
+	position: center;  
+}
+
+.container{
+    width: 100%;
+	display: flex;
+	max-width: 1100px;
+}
+
+.card{
+	width: 100%;
+	margin: 20px;
+	positiony: center;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	cursor: default;
+	transition: all 400ms ease;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.contenido {
+	padding: 10px;
+	text-align: center;
+}
+.contenido p{
+	color: #6a6a6a;
+	text-align: center;
+}
+.contenido h3{
+	font-weight: 400;
+	margin-bottom: 5px;
+	text-align: center
+
+}
+.contenido a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+}
+.contenido a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+.boton a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	position:absolute;
+    bottom:5px;
+    right: 47%;
+}
+.boton a:hover{
+	background: #2fb4cc;
+	color: #fff;
+	position:absolute;
+    bottom:5px;
+    right: 47%;
+}
